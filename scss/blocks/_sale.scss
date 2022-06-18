@@ -1,0 +1,20 @@
+.sale{
+  margin-bottom: 138px;
+}
+
+
+.sale__sale{
+  margin-bottom: 72px;
+}
+
+.sale__img{
+  height: 192px;
+}
+
+
+@media screen and (max-width: 520px) {
+
+  .sale__sale{
+    display: block;
+  }
+}

@@ -1,0 +1,94 @@
+.header{
+  background: #EABF9F;
+}
+
+.nav{
+  display: block;
+  width: 493px;
+  margin-left: 786px;
+}
+
+.nav__menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #01384D;
+  text-decoration: none;
+}
+
+.header__menu-burg{
+  display: none;
+}
+
+
+.header__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__img{
+  width: 160px;
+  height: 37px;
+}
+
+.header__call{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #01384D;
+  text-decoration: none;
+  position: relative;
+
+  &::before{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 2px;
+    left: -25px;
+    background-image: url("../images/Call.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    content: "";
+}
+}
+
+.header__btn{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #01384D;
+  margin-left: 38px;
+  padding: 13px 28px 14px;
+  background: #FFFFFF;
+  border: 2px solid #01384D;
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 520px) {
+
+  .header{
+    padding: 18px 0;
+  }
+  
+  .nav{
+    display: none;
+  }
+
+  .header__contact{
+    display: none;
+  }
+ 
+  .header__menu-burg{
+    display: block;
+    justify-content: center;
+  }
+  
+  }

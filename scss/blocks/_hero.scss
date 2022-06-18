@@ -1,0 +1,69 @@
+.hero{
+  padding: 52px 0 68px;
+  background: #EABF9F;
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 290px) calc(100% + 10px);
+}
+
+.hero__box{
+  width: 735px;
+  margin-bottom: 50px;
+}
+
+.hero__title{
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 105px;
+  color: #01384D;
+  margin: 0;
+}
+
+.hero__btn{
+  position: relative;
+  margin: 0;
+  margin-bottom: 100px;
+
+  &::after{
+    content: "";
+    width: 15px;
+    height: 0;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    background-image: url("../images/arrow.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+}
+
+.hero__img{
+  display: block;
+}
+
+@media screen and (max-width: 520px) {
+
+  .hero{
+    background-image: url("../images/hero-bg-mobile.png");
+    background-position: calc(50%) calc(50% );
+    padding-bottom: 48px;
+  }
+
+  .hero__box{
+    width: 100%;
+    margin-bottom: 272px;
+  }
+
+  .hero__title{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 55px;
+    color: #01384D;
+  }
+
+  .hero__btn{
+    margin-bottom: 50px;
+  }
+}

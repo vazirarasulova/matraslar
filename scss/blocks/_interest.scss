@@ -1,0 +1,115 @@
+.interest{
+  background: #EABF9F;
+  margin-bottom: 57px;
+  padding: 112px 0 113px;
+}
+
+.interest__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interest__info{
+  width: 421px;
+}
+
+.interest__title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #01384D;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.interest__text{
+  font-size: 16px;
+  line-height: 23px;
+  color: #01384D;
+  margin: 0;
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__input{
+  font-size: 16px;
+  line-height: 19px;
+  color: #01384D;
+  padding: 21px 182px 20px 23px;
+  margin-right: 15px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.form__btn{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 20px 82px 19px;
+  background: #01384D;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 520px) {
+
+  .interest{
+    padding: 70px 0 63px;
+  }
+  .interest__box{
+    flex-direction: column;
+  }
+
+  .interest__info{
+    width: 100%;
+    margin-bottom: 47px;
+  }
+
+  .interest__title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 3px;
+  }
+
+  .interest__text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 23px;
+  }
+
+  .form{
+    flex-direction: column;
+  }
+
+  .form__input{
+    width: 100%;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .form__btn{
+    width: 100%;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+
+}

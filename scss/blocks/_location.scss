@@ -1,0 +1,112 @@
+.location{
+  margin-bottom: 89px;
+}
+
+.location__title{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #01384D;
+  margin: 0;
+}
+
+.location__box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.location__info{
+  width: 482px;
+  padding-top: 50px;
+}
+
+.location__address{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color: #01384D;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.location__text{
+  font-size: 18px;
+  line-height: 28px;
+  color: #01384D;
+  margin: 0;
+  margin-bottom: 46px;
+  }
+
+  .location__link{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #01384D;
+    padding: 19px 104px 20px 145px;
+    background: #FFFFFF;
+    border: 2px solid #01384D;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .location__img{
+    width: 525px;
+    height: 321px;
+  }
+
+
+  @media screen and (max-width: 520px) {
+
+    .location{
+      margin-bottom: 70px;
+    }
+
+    .location__box{
+      flex-direction: column-reverse;
+    
+    }
+
+    .location__info{
+      width: 100%;
+      padding: 0;
+    }
+
+    .location__title{
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+
+    .location__address{
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 10px;
+    }
+
+    .location__text{
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .location__img{
+      width: 100%;
+      height: 100%;
+      margin-bottom: 25px;
+    }
+
+    .location__link{
+      font-family: 'Josefin Sans';
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+    }
+  }

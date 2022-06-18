@@ -1,0 +1,147 @@
+.company{
+  margin-bottom: 120px;
+}
+
+.company__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+
+  &:last-child{
+    flex-direction: row-reverse;
+  }
+}
+
+.company__box:nth-child(2) > .company__info {
+  width: 568px;
+}
+
+.company__subbox{
+  width: 599px;
+  margin-bottom: 28px;
+}
+
+.company__title{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  color: #01384D;
+  margin: 0;
+}
+
+.company__text{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #01384D;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.company__list{
+  width: 609px;
+  background: #EABF9F;
+  border: 2px solid #01384D;
+  border-radius: 8px;
+  list-style: inside;
+  padding: 24px 30px 10px;
+
+  &:nth-child(2){
+    width: 568px;
+  }
+}
+
+.company__item{
+  font-size: 16px;
+  line-height: 19px;
+  color: #01384D;
+  padding-bottom: 14px;
+}
+
+.company__subtext{
+  font-size: 16px;
+  line-height: 26px;
+  color: #01384D;
+}
+
+.company__img{
+  width: 625px;
+  height: 401px;
+}
+
+
+@media screen and (max-width: 520px) {
+
+  .company{
+    margin-bottom: 90px;
+  }
+
+  .company__box{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+
+    &:nth-child(2){
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  .company__box:nth-child(2) > .company__info {
+    width: 100%;
+  }
+  
+
+  .company__subbox{
+    width: 100%;
+  }
+
+  .company__title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .company__text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .company__list{
+    width: 100%;
+    margin-bottom: 30px;
+
+  &:nth-child(2){
+    width: 100%;
+  }
+
+  }
+
+  .company__item{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+
+  .company__subtext{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .company__img{
+    width: 100%;
+    height: 100%;
+  }
+}

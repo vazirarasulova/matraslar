@@ -1,0 +1,134 @@
+.technology{
+  margin-bottom: 140px;
+}
+
+.technology__title{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #01384D;
+  margin: 0;
+  margin-bottom: 87px;
+}
+
+.technology__list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.technology__subtitle{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #01384D;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.technology__img{
+  width: 407px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+
+  
+  &::before{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 102px;
+    right: 15px;
+    background-image: url("../images/videoplay.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    content: "";
+}
+}
+
+.technology__info{
+  width: 367px;
+  align-items: center;
+}
+
+.technology__text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #01384D;
+  margin: 0;
+}
+
+.technology__img-mb{
+  display: none;
+}
+
+@media screen and (max-width: 520px) {
+
+  .technology{
+    margin-bottom: 60px;
+  }
+
+  .technology__title{
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 50px;
+  }
+
+  .technology__list{
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+
+  }
+
+  .technology__item{
+    display: none;
+
+    &:nth-child(1){
+      display: block;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+
+
+  .technology__subtitle{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  .technology__img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .technology__info{
+    width: 100%;
+  }
+
+  .technology__text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .technology__img-mb{
+    display: block;
+    width: 60px;
+    height: 10px;
+    margin: 0 auto;
+  }
+}
